@@ -1,0 +1,30 @@
+.myFlip {
+    width: 350px;
+    height: 400px;
+    margin: 60px;
+    /* border: 1px solid rgb(226, 226, 155);
+    border-radius: 5%; */
+}
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.inf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+button {
+    background-color: transparent;
+    border: 1px solid #b7d831;
+    padding: 5px 10px;
+    bottom: 10px;
+    width: 180px;
+    height: 30px;
+    margin: 30px auto;
+    cursor: pointer;
+    border-radius: 10%;
+    font-size: 17px;
+}
